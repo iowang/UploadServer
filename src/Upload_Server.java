@@ -1,10 +1,24 @@
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Properties;
 
 public class Upload_Server {
+
+    private static int ServerPort;
+
+    static {
+        Properties properties=new Properties();
+        try {
+            properties.load(new FileReader("file.properties"));
+            ServerPort= Integer.parseInt(properties.getProperty("serverPort"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(54321);
+
+        ServerSocket serverSocket = new ServerSocket(ServerPort);
         System.out.println("服务器启动=================");
         while (true) {
             final Socket socket = serverSocket.accept();

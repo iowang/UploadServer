@@ -1,11 +1,25 @@
 import java.io.*;
 import java.net.Socket;
+import java.util.Properties;
 import java.util.Scanner;
 
 public class Upload_Client {
+    private static int ClientPort;
+    private static String ClientIp;
+    static {
+        Properties properties=new Properties();
+        try {
+            properties.load(new FileReader("file.properties"));
+            ClientIp=properties.getProperty("clientIp");
+            ClientPort=Integer.parseInt(properties.getProperty("clientPort"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
     public static void main(String[] args) throws IOException {
 //        建立连接
-        Socket socket = new Socket("localhost", 54321);
+        Socket socket = new Socket(ClientIp, ClientPort);
 //        获取和客户端的输入流
         BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         PrintStream ps = new PrintStream(socket.getOutputStream());
