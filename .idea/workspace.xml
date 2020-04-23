@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3640de51-279b-4301-b949-11745ebe870c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/file.properties" afterDir="false" />
+    <list default="true" id="3640de51-279b-4301-b949-11745ebe870c" name="Default Changelist" comment="Update---增加了配置文件">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zl/show/LoginFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Upload_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Upload_Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Upload_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Upload_Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UploadFile/Upload_Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UploadFile/Upload_Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UploadFile/Upload_Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Upload_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zl/show/Upload_Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Upload_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zl/show/Upload_Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +59,33 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Upload_Client">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/cn/zl/show" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LoginFrame">
+    <configuration name="LoginFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zl.show.LoginFrame" />
+      <module name="UploadFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Upload_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Upload_Client" />
+      <option name="MAIN_CLASS_NAME" value="cn.zl.show.Upload_Client" />
       <module name="UploadFile" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Upload_Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Upload_Server" />
+      <option name="MAIN_CLASS_NAME" value="cn.zl.show.Upload_Server" />
       <module name="UploadFile" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,8 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Upload_Client" />
+        <item itemvalue="Application.LoginFrame" />
         <item itemvalue="Application.Upload_Server" />
+        <item itemvalue="Application.Upload_Client" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +122,12 @@
       <option name="presentableId" value="Default" />
       <updated>1585910399561</updated>
       <workItem from="1585910402091" duration="4840000" />
-      <workItem from="1586073783898" duration="816000" />
+      <workItem from="1586073783898" duration="1682000" />
+      <workItem from="1587465377904" duration="647000" />
+      <workItem from="1587561247881" duration="6076000" />
+      <workItem from="1587607701633" duration="522000" />
+      <workItem from="1587608259675" duration="804000" />
+      <workItem from="1587624619166" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="UploadServer">
       <created>1585918050672</created>
@@ -107,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585918050672</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update---增加了配置文件">
+      <created>1586074621810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586074621810</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update---增加了配置文件">
+      <created>1586074736259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586074736259</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,45 +158,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UploadServer" />
-    <option name="LAST_COMMIT_MESSAGE" value="UploadServer" />
+    <MESSAGE value="Update---增加了配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update---增加了配置文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="770" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1585914673564">
+    <state x="770" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1587563884715">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="770" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585914673564" />
-    <state x="453" y="117" key="CommitChangelistDialog2" timestamp="1586074621683">
+    <state x="770" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1587563884715" />
+    <state x="662" y="412" width="595" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587567327433">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="453" y="117" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1586074621683" />
-    <state x="663" y="275" key="FileChooserDialogImpl" timestamp="1585917841138">
+    <state x="662" y="412" width="595" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1587567327433" />
+    <state x="453" y="117" key="CommitChangelistDialog2" timestamp="1587625705466">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="663" y="275" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585917841138" />
+    <state x="453" y="117" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587625705466" />
+    <state x="663" y="275" key="FileChooserDialogImpl" timestamp="1586088928514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="663" y="275" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586088928514" />
     <state x="721" y="443" key="Github.CreateGistDialog" timestamp="1585917738947">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="721" y="443" key="Github.CreateGistDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585917738947" />
-    <state width="1868" height="280" key="GridCell.Tab.0.bottom" timestamp="1585918305690">
+    <state width="1868" height="280" key="GridCell.Tab.0.bottom" timestamp="1587625581844">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1868" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585918305690" />
-    <state width="1868" height="280" key="GridCell.Tab.0.center" timestamp="1585918305690">
+    <state width="1868" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587625581844" />
+    <state width="1868" height="280" key="GridCell.Tab.0.center" timestamp="1587625581844">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1868" height="280" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585918305690" />
-    <state width="1868" height="280" key="GridCell.Tab.0.left" timestamp="1585918305689">
+    <state width="1868" height="280" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587625581844" />
+    <state width="1868" height="280" key="GridCell.Tab.0.left" timestamp="1587625581843">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1868" height="280" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585918305689" />
-    <state width="1868" height="280" key="GridCell.Tab.0.right" timestamp="1585918305690">
+    <state width="1868" height="280" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587625581843" />
+    <state width="1868" height="280" key="GridCell.Tab.0.right" timestamp="1587625581844">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1868" height="280" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585918305690" />
-    <state x="564" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1586073784663">
+    <state width="1868" height="280" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587625581844" />
+    <state x="564" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1587624620669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="564" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586073784663" />
+    <state x="564" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587624620669" />
     <state x="679" y="451" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585918292591">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
